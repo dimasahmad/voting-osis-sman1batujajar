@@ -1,0 +1,25 @@
+{
+  "name": "dimasahmad/voting-osis-sman1batujajar",
+  "type": "library",
+  "description": "Library untuk Voting OSIS SMAN 1 Batujajar",
+  "homepage": "https://github.com/dimasahmad/voting-osis-sman1batujajar",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dimas Ahmad Eka Putra",
+      "email": "dimasahmad@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "phpoffice/phpspreadsheet": "^1.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "DimasAhmad\\VotingOsisSman1Batujajar\\": "src/"
+    }
+  }
+}
